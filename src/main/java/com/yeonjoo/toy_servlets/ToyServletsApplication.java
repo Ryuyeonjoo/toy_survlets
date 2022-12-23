@@ -1,13 +1,13 @@
-package com.yeonjoo.toy_survlets;
+package com.yeonjoo.toy_servlets;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ToySurvletsApplication {
+public class ToyServletsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ToySurvletsApplication.class, args);
+		SpringApplication.run(ToyServletsApplication.class, args);
 	}
 
 }

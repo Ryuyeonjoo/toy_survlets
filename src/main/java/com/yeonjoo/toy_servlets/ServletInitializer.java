@@ -1,4 +1,4 @@
-package com.yeonjoo.toy_survlets;
+package com.yeonjoo.toy_servlets;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(ToySurvletsApplication.class);
+		return application.sources(ToyServletsApplication.class);
 	}
 
 }
